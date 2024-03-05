@@ -48,3 +48,31 @@ h4{
     color: #1e0f0b;
     border: 1px solid #ffffff;
 }
+@media only screen and (max-width:767px) {
+    .inner-container{
+        max-width: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navCenter> h4{
+        display: flex;
+        justify-content: center;
+        margin-top: 55px;
+    }
+    .navCenter{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container h2{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
