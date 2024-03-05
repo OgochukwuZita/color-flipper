@@ -1,7 +1,7 @@
 'use strict'
 
 //create array of colors
-const colors = ['green','red','blue','pink','orange','purple','indigo'];
+const colors = ['Green','Red','Blue','Pink','Orange','Purple','Indigo'];
 //get identifiers
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
